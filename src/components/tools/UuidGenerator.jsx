@@ -22,8 +22,8 @@ const copyToClipboard = () => {
     navigator.clipboard.writeText(uuid)
 }
   return (
-    <div className='min-h-screen min-w-screen flex justify-center text-neutral-200 bg-neutral-900 selection:bg-zinc-400'>
-        <div className='w-3/5 min-h-screen flex items-center justify-center '>
+    
+        <div className='w-3/5 flex items-center justify-center'>
 
         <Card className='w-8/10 border-0'>
             <CardHeader className='flex items-center justify-center flex-col select-none'>
@@ -37,17 +37,10 @@ const copyToClipboard = () => {
                     <Button onClick={generateUuid} className='text-center text-xl border border-neutral-500 rounded-2xl text-neutral-900 bg-neutral-200 cursor-pointer active:scale-95'>Generate New</Button>
                 </div>
             </CardContent>
-            <CardFooter className='flex flex-col items-center justify-center text-center'>
-                <p>Built by @<a className='hover:underline' href="https://github.com/bharathkumaarr/" target='_blank'>bharathkumaarr</a></p>
-            </CardFooter>
+            
         </Card>
-
-        
-
-
         </div>
       
-    </div>
   )
 }
 
