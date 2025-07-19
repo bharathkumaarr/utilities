@@ -4,8 +4,9 @@ import UuidGenerator from './tools/UuidGenerator'
 function Hero() {
   return (
     <>
-    {/* <UuidGenerator /> */}
-    
+    <UuidGenerator />
+
+
     
 
     </>
